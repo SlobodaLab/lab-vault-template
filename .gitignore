@@ -1,0 +1,19 @@
+# Obsidian
+.obsidian/workspace*
+.obsidian/plugins/
+.obsidian/themes/
+.obsidian/cache
+.obsidian/graph.json
+.trash/
+
+# Plugin caches
+.makemd/
+.space/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code local state (if using Claude integration)
+.claude/
