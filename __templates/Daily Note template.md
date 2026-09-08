@@ -55,5 +55,5 @@ WHERE contains(contexts, "@radar") AND status != "done"
 -
 
 ## Sessions
-<!-- Session log links go here (manual or via /close if using Claude) -->
+<!-- If using Claude Code: /close adds session log links here. Otherwise use for links to any work notes. -->
 

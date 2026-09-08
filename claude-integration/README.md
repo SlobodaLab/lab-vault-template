@@ -32,7 +32,17 @@ From this `claude-integration/` folder, copy into your vault root:
 - `CLAUDE-MEMORY.md` → vault root
 - `MISTAKES-AND-LESSONS.md` → vault root
 
-### 3. Set up the `.claude/` directory
+### 3. Create folders and copy the session log template
+
+```powershell
+# Session logs folder (used by /close and /log)
+New-Item -ItemType Directory -Force -Path "10-Session-Logs"
+
+# Copy the session log template into your templates folder
+Copy-Item "claude-integration\Session Log template.md" "__templates\Session Log template.md"
+```
+
+### 4. Set up the `.claude/` directory
 
 Claude Code looks for configuration in `.claude/` at the project root.
 
@@ -47,11 +57,11 @@ Copy-Item "claude-integration\commands\*" ".claude\commands\" -Recurse
 Copy-Item "claude-integration\settings.local.json" ".claude\settings.local.json"
 ```
 
-### 4. Fill in CLAUDE-MEMORY.md
+### 5. Fill in CLAUDE-MEMORY.md
 
 Open `CLAUDE-MEMORY.md` and fill in the sections. This gives Claude stable context about you, your research, and your preferences so you don't have to re-explain things each session.
 
-### 5. Open your vault in Claude Code
+### 6. Open your vault in Claude Code
 
 ```bash
 cd /path/to/your/vault

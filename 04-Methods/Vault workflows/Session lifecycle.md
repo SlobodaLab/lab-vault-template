@@ -44,15 +44,13 @@ When you're done for the day:
 
 1. Fill in `## Decisions Made` if you haven't already
 2. Write `## Next Session` notes (what to pick up, unresolved questions)
-3. (Optional) Create a session log in `10-Session-Logs/` for detailed sessions
-4. Update `STATUS.md` for any project whose state changed
+3. Update `STATUS.md` for any project whose state changed
 
-**With Claude Code:** `/close` automates all of this.
+**With Claude Code:** `/close` automates all of this and also creates a detailed session log in `10-Session-Logs/`.
 
 ## Key files
 
 - `__templates/Daily Note template.md`
 - `__templates/Weekly Note template.md`
-- `__templates/Session Log template.md`
 - `VAULT-INDEX.md`
 - Per-project `STATUS.md`
