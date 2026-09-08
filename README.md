@@ -37,8 +37,6 @@ For more: [Obsidian's official docs](https://help.obsidian.md/) and the [communi
 06-Meetings/       Meeting notes
 07-Knowledge/      Reference material, concepts, evergreen notes
 08-Career/         Applications, CVs, career planning
-09-Contacts/       People you work with
-10-Session-Logs/   Work session records (used with Claude Code integration)
 99-Archive/        Completed or inactive items (never delete, archive here)
 TaskNotes/         Individual task files managed by the TaskNotes plugin
 __templates/       Templates for all note types
@@ -122,7 +120,7 @@ See `04-Methods/Vault workflows/Time tracking (optional).md`.
 | Command | What it does |
 |---------|-------------|
 | `/morning` | Morning briefing + priority setting |
-| `/close` | Session wrap-up + log creation |
+| `/close` | Session wrap-up + log creation (creates `10-Session-Logs/`) |
 | `/lab` | Lab notebook entry from a description |
 | `/paper` | Paper note scaffold from a DOI |
 | `/status` | Project status check |
@@ -137,7 +135,7 @@ See `claude-integration/README.md` for setup.
 - **Archive, don't delete.** Move to `99-Archive/` instead of deleting. You'll thank yourself later.
 - **STATUS.md is the single source of truth** for every project's state.
 - **Daily note is the hub.** Everything surfaces there: priorities, meetings, lab work, decisions.
-- **Templates enforce consistency.** Use them. Every note type has one.
+- **Templates enforce consistency.** Use them. Common note types each have one.
 - **Links create value.** Connect papers to projects, tasks to projects, entries to projects. The cross-references compound over time.
 - **Future you is the audience.** Write decisions with reasoning. Record enough in lab entries to reproduce the work. Your future self is the primary reader.
 
